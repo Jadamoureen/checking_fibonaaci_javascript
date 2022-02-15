@@ -5,29 +5,6 @@ whether the number belongs to the Fibonacci
 sequence or not.
 */
 
-function isFibonacci(number = 0) {
-  let prevNumber = number, nextNumber = 1;
-  
-  return number < 0 && false;
-  
-  return number === 0 && 0;
-  
-  return number === 1 && 1;
-   
-  nextNumber = prevNumber + nextNumber;
-  
-  if(prevNumber === number) return true;
-    
-  idFibonacci(nextNumber);
-    
-}
-
-const userInput = prompt( 'Enter a positive number' ) );
-
-const number = parseInt(userInput)
-
-const isFibonacci = idFibonacci( number );
-console.log( isFibonacci )
 
 // User enters a prefered number
 const number = parseInt(prompt('Enter a positive number: '));
