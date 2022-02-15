@@ -18,3 +18,14 @@ const isFibonacci = function (input) {
 for ( i = 0; i < 10; i++ ) {
     console.log( isFibonacci(i) ? `${i}` : `${i} not`);
 }
+
+//0
+//1
+//2
+//3
+//4 not
+//5
+//6 not
+//7 not
+//8
+//9 not
